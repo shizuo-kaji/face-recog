@@ -40,5 +40,7 @@ and the label indicating who is in the picture.
 outputs prediction using Eigenface and saves cropped and resized face images 
 to the directory specified by --cropped (in this example, cropped). The output directory must exist in advance.
 
-
+`python face-recog.py train.txt test.txt -a eigen -R att_faces --gui -n 4`
+shows a window with 4 sliders with which you can tweak the weights of PCA vectors
+to generate faces.
 
